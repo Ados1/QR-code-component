@@ -65,12 +65,13 @@ article {
 /* styling of container containing links */
 
 .attribution {
-  position: absolute;
-  top: 440px;
+  position: relative;
+  top: 270px;
   font-family: sans-serif;
   font-size: 0.8rem;
   color: grey;
   line-height: 1.2rem;
+  text-align: center;
 }
 
 /* links  */
