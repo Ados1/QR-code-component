@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* styling of article container */
+article {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(230, 241, 250);
+  overflow: hidden;
+}
+
+/* styling of container containing contents */
+
+.challenge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: white;
+  top: 10px;
+  height: 30rem;
+  margin: 2rem;
+  border-radius: 25px;
+}
+
+/* styling of qrcode image container */
+.qrcode {
+  position: absolute;
+  top: 15px;
+  width: 300px;
+  height: 295px;
+  border-radius: 30px;
+  background-image: url("../images/image-qr-code.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* styling of header */
+.heading {
+  position: absolute;
+  top: 325px;
+  font-family: poppins;
+  font-size: 0.7rem;
+  text-align: center;
+  font-weight: bolder;
+  width: 230px;
+}
+
+/* styling of container containing text */
+.text {
+  position: absolute;
+  top: 385px;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: grey;
+  text-align: center;
+  width: 220px;
+}
+
+/* styling of container containing links */
+
+.attribution {
+  position: absolute;
+  top: 440px;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: grey;
+  line-height: 1.2rem;
+}
+
+/* links  */
+.links {
+  color: rgb(75, 161, 236);
+  text-decoration: none;
+}
+.links:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+/* tablet and desktop view */
+@media screen and (min-width: 700px) {
+  /* styling of container containing contents for tablet and desktop */
+  .challenge {
+    width: 310px;
+  }
+
+  /* styling of the article for tablet and desktop */
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
