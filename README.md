@@ -24,7 +24,7 @@ Creating a QR code component using HTML5 and CSS3.
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Ados1/QR-code-component.git)
-- Live Site URL: [Add live site URL here](https://main.d1icgh17kka5kw.amplifyapp.com/)
+- Live Site URL: [Add live site URL here](https://ados1.github.io/QR-code-component/)
 
 ## My process
 
